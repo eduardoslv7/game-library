@@ -1,14 +1,5 @@
 import { useEffect, useState } from 'react';
-import {
-  ActivityIndicator,
-  FlatList,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
-} from 'react-native';
-
+import { ActivityIndicator, FlatList, StyleSheet, Text, TextInput, TouchableOpacity, View, } from 'react-native';
 import api from '@/services/api';
 
 type Game = {
